@@ -1,0 +1,97 @@
+body
+{
+    color: #00ffff;
+    background-color:antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header
+{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(40, 40, 155);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
+    display: flex;  
+}
+header h1
+{
+    padding-left: 8%;
+}
+header img
+{
+    padding-top: 1%;
+    width: 4%;
+    height: 4%;
+    padding-left: 1%; 
+    
+}
+
+/*#####################################################*/
+
+.menu
+{
+    background-color: rgb(40, 40, 155);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    padding-bottom: 0%;
+}
+
+.menu ul
+{
+    display: flex;
+    justify-content:space-evenly;
+    list-style:none;  
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 150%;
+    padding: 1%;
+    margin: 0.5%;
+}
+/*#####################################################*/
+.gato
+{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.gato img
+{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+/*#####################################################*/
+
+.textoUm
+{
+    
+    margin-top: 1%;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+    background-color: blueviolet;
+    font-size: 125%;
+    margin-bottom: 1%;
+}   
+
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Ajuste conforme necessário */
+}
+
+.colunas section {
+    width: 20%;
+    word-wrap: break-word;
+    flex-basis: 20%; /* Ajuste conforme necessário */
+    background-color: rgb(61, 55, 55); /* Ajuste conforme necessário */
+    padding: 10px; /* Ajuste conforme necessário */
+    border-radius: 100px; /* Ajuste conforme necessário */
+    min-height: 100px; /* Altura mínima da seção */
+    height: auto; /* Altura ajustável conforme o conteúdo */
+    box-sizing: border-box;
+}
+
