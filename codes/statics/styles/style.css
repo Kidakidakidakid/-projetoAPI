@@ -6,6 +6,11 @@ body
     margin: 0;
     font-size:larger;
 }
+body a
+{
+    
+    text-decoration: none;
+}
 
 ::-webkit-scrollbar
 {
@@ -119,9 +124,9 @@ header img
     display: flex;
     align-items: center;
 }
-.c2texto h1
+.c2texto h2
 {
-    margin-right: 5%;
+    margin-right: 3%;
 }
 .c2texto img
 {
@@ -138,7 +143,6 @@ header img
     flex-wrap: wrap;
     margin: .8% 5% 0 5%;
 }
-
 .conteudo2 img
 {
     margin-top: 3%;
@@ -191,9 +195,9 @@ header img
     align-items: center;
 
 }
-.c3video img
+.c3video video
 {
-    width: 70%;
+    width: 100%;
     margin: 0 20% 0 10%;
 }
 /*#####################################################*/
